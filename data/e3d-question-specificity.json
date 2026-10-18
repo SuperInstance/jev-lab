@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-18T15:44:10.974Z",
+  "repeats": 9,
+  "arms": {
+    "scoped state + section-named question": {
+      "picks": {
+        "B": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.19,
+        "max": 0.29,
+        "mean": 0.22999999999999998,
+        "spread": 0.09999999999999998,
+        "last": 0.23
+      },
+      "correct": false
+    },
+    "WHOLE state  + section-named question": {
+      "picks": {
+        "A": 5,
+        "B": 4
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.32,
+        "max": 0.58,
+        "mean": 0.4911111111111112,
+        "spread": 0.25999999999999995,
+        "last": 0.57
+      },
+      "correct": true
+    },
+    "scoped state + generic question      ": {
+      "picks": {
+        "B": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.2,
+        "max": 0.38,
+        "mean": 0.2677777777777778,
+        "spread": 0.18,
+        "last": 0.27
+      },
+      "correct": false
+    },
+    "WHOLE state  + generic question      ": {
+      "picks": {
+        "B": 3,
+        "A": 6
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.35,
+        "max": 0.6,
+        "mean": 0.5066666666666666,
+        "spread": 0.25,
+        "last": 0.57
+      },
+      "correct": true
+    }
+  }
+}

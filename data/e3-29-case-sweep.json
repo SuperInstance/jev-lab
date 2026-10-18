@@ -1,0 +1,301 @@
+{
+  "at": "2026-10-18T15:42:48.472Z",
+  "repeats": 5,
+  "correct": 27,
+  "total": 29,
+  "meanP": 0.902344827586207,
+  "maxSpread": 0.13,
+  "results": [
+    {
+      "name": "d01-empty",
+      "picks": {
+        "A": 5
+      },
+      "pA": 1,
+      "spread": 0,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d02-single-root",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9279999999999999,
+      "spread": 0.039999999999999925,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d03-ancestry-descendant-wins",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.99,
+      "spread": 0,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d04-ancestry-transitive-3-deep",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.994,
+      "spread": 0.010000000000000009,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d05-class-precedence-override-beats-task",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9899999999999999,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d06-class-precedence-task-beats-witness-descent",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9639999999999999,
+      "spread": 0.010000000000000009,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d07-uncontested-witness-reaches-state",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9460000000000001,
+      "spread": 0.029999999999999916,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d08-three-classes-same-key",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9480000000000001,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d09-sibling-tasks-tiebreak-smallest-id",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.968,
+      "spread": 0.010000000000000009,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d10-diamond-dag",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9719999999999999,
+      "spread": 0.010000000000000009,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d11-orphan-missing-parent",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.898,
+      "spread": 0.040000000000000036,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d12-orphan-descendant-not-auto-orphaned",
+      "picks": {
+        "A": 1,
+        "B": 4
+      },
+      "pA": 0.43600000000000005,
+      "spread": 0.13,
+      "correct": false,
+      "n": 5
+    },
+    {
+      "name": "d13-cycle-two",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9279999999999999,
+      "spread": 0.04999999999999993,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d14-cycle-three-with-clean-child",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.97,
+      "spread": 0,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d15-multi-key-partial-overlap",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.958,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d16-same-value-no-conflict",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.984,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d17-non-bmp-ids",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.8400000000000001,
+      "spread": 0.08999999999999997,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d18-nested-effects",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9179999999999999,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d19-float-edge-in-effects",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.874,
+      "spread": 0.06000000000000005,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d20-wide-fanout",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9480000000000001,
+      "spread": 0.039999999999999925,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d21-override-descendant-of-task",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9860000000000001,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d22-empty-effects-chain",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9800000000000001,
+      "spread": 0.030000000000000027,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d23-self-parent-cycle",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9460000000000001,
+      "spread": 0.029999999999999916,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d24-mixed-realistic",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.86,
+      "spread": 0.07000000000000006,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d25-numeric-string-vs-number",
+      "picks": {
+        "B": 5
+      },
+      "pA": 0.43600000000000005,
+      "spread": 0.09999999999999998,
+      "correct": false,
+      "n": 5
+    },
+    {
+      "name": "d26-setter-provenance",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.776,
+      "spread": 0.10999999999999999,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d27-decision-receipt-inert",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.76,
+      "spread": 0.10000000000000009,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d28-licensed-action-applies",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.99,
+      "spread": 0,
+      "correct": true,
+      "n": 5
+    },
+    {
+      "name": "d29-unlicensed-action-is-orphaned",
+      "picks": {
+        "A": 5
+      },
+      "pA": 0.9800000000000001,
+      "spread": 0.020000000000000018,
+      "correct": true,
+      "n": 5
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-18T15:41:45.619Z",
+  "case": "d12-orphan-descendant-not-auto-orphaned",
+  "repeats": 7,
+  "scores": {
+    "child_is_orphan": {
+      "n": 7,
+      "min": 0.22,
+      "max": 0.27,
+      "mean": 0.23714285714285713,
+      "spread": 0.05000000000000002,
+      "last": 0.24
+    },
+    "child_effect_applies": {
+      "n": 7,
+      "min": 0.24,
+      "max": 0.41,
+      "mean": 0.32142857142857145,
+      "spread": 0.16999999999999998,
+      "last": 0.35
+    },
+    "orphan_effect_applies": {
+      "n": 7,
+      "min": 0.11,
+      "max": 0.12,
+      "mean": 0.1157142857142857,
+      "spread": 0.009999999999999995,
+      "last": 0.11
+    },
+    "orphan_is_reported": {
+      "n": 7,
+      "min": 0.96,
+      "max": 0.97,
+      "mean": 0.9685714285714285,
+      "spread": 0.010000000000000009,
+      "last": 0.96
+    }
+  },
+  "derived": {
+    "child_is_orphan": true,
+    "child_effect_applies": false,
+    "orphan_effect_applies": true,
+    "orphan_is_reported": true
+  },
+  "houseExpectation": {
+    "child_is_orphan": false,
+    "child_effect_applies": true,
+    "orphan_effect_applies": false,
+    "orphan_is_reported": true
+  },
+  "agree": false,
+  "wouldMisread": false
+}

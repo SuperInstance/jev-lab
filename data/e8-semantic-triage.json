@@ -1,0 +1,180 @@
+{
+  "at": "2026-10-18T15:47:30.584Z",
+  "repeats": 3,
+  "pattern": "/deepseek|jev|typesafe|openai|anthropic|worker[s -]?ai|minimax|z\\.ai|qwen|glm|kimi|llm|language model|paid model|judge/i",
+  "corpus": 24,
+  "positives": 11,
+  "minPositive": 0.02,
+  "maxNegative": 0.13,
+  "separated": false,
+  "topK": {
+    "k": 11,
+    "truePositives": 10
+  },
+  "disagreements": [
+    {
+      "file": "luciddreamer.md",
+      "score": 0.20000000000000004,
+      "spread": 0.01999999999999999,
+      "truth": true
+    },
+    {
+      "file": "sdk.md",
+      "score": 0.47,
+      "spread": 0.04999999999999999,
+      "truth": true
+    },
+    {
+      "file": "substrate-vectors.md",
+      "score": 0.02,
+      "spread": 0,
+      "truth": true
+    }
+  ],
+  "rows": [
+    {
+      "file": "AI-Writings.md",
+      "score": 0.7466666666666667,
+      "spread": 0.040000000000000036,
+      "truth": true
+    },
+    {
+      "file": "canon-claim.md",
+      "score": 0.13,
+      "spread": 0.020000000000000018,
+      "truth": false
+    },
+    {
+      "file": "canon-graph.md",
+      "score": 0.02,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "gitpp-c.md",
+      "score": 0.01,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "gitpp-cross-port.md",
+      "score": 0.01,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "gitpp-cs.md",
+      "score": 0.013333333333333334,
+      "spread": 0.01,
+      "truth": false
+    },
+    {
+      "file": "gitpp-decision-parent.md",
+      "score": 0.03,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "gitpp-fold-conformance.md",
+      "score": 0.013333333333333334,
+      "spread": 0.01,
+      "truth": false
+    },
+    {
+      "file": "gitpp-gate.md",
+      "score": 0.98,
+      "spread": 0,
+      "truth": true
+    },
+    {
+      "file": "gitpp-hub-api.md",
+      "score": 0.013333333333333334,
+      "spread": 0.01,
+      "truth": false
+    },
+    {
+      "file": "gitpp-js.md",
+      "score": 0.02,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "gitpp-oracle.md",
+      "score": 0.016666666666666666,
+      "spread": 0.01,
+      "truth": false
+    },
+    {
+      "file": "gitpp-pl.md",
+      "score": 0.01,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "gitpp-sheet.md",
+      "score": 0.9133333333333334,
+      "spread": 0.010000000000000009,
+      "truth": true
+    },
+    {
+      "file": "luciddreamer.md",
+      "score": 0.20000000000000004,
+      "spread": 0.01999999999999999,
+      "truth": true
+    },
+    {
+      "file": "negctl.md",
+      "score": 0.02,
+      "spread": 0,
+      "truth": false
+    },
+    {
+      "file": "qthe.md",
+      "score": 0.87,
+      "spread": 0.030000000000000027,
+      "truth": true
+    },
+    {
+      "file": "quilt-ai.md",
+      "score": 0.9700000000000001,
+      "spread": 0,
+      "truth": true
+    },
+    {
+      "file": "quilt-claw.md",
+      "score": 0.9233333333333333,
+      "spread": 0.010000000000000009,
+      "truth": true
+    },
+    {
+      "file": "quilt-evolve.md",
+      "score": 0.9333333333333332,
+      "spread": 0.009999999999999898,
+      "truth": true
+    },
+    {
+      "file": "quilt-pincher.md",
+      "score": 0.89,
+      "spread": 0.020000000000000018,
+      "truth": true
+    },
+    {
+      "file": "score-table.md",
+      "score": 0.02666666666666667,
+      "spread": 0.009999999999999998,
+      "truth": false
+    },
+    {
+      "file": "sdk.md",
+      "score": 0.47,
+      "spread": 0.04999999999999999,
+      "truth": true
+    },
+    {
+      "file": "substrate-vectors.md",
+      "score": 0.02,
+      "spread": 0,
+      "truth": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The hash IS the address. A cell location is determined by its own content -- hash of (kind, payload, parents) -- so there is no separate place-coordinate and no separate ID service. The address is a content hash, and it is exact, verifiable and priceable.

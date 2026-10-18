@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-18T15:44:54.200Z",
+  "repeats": 9,
+  "arms": [
+    {
+      "label": "explanatory, CORRECT at A",
+      "picks": {
+        "A": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.9,
+        "max": 0.97,
+        "mean": 0.9433333333333334,
+        "spread": 0.06999999999999995,
+        "last": 0.96
+      },
+      "rightCount": 9,
+      "n": 9
+    },
+    {
+      "label": "explanatory, CORRECT at B",
+      "picks": {
+        "B": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.02,
+        "max": 0.04,
+        "mean": 0.027777777777777776,
+        "spread": 0.02,
+        "last": 0.03
+      },
+      "rightCount": 9,
+      "n": 9
+    },
+    {
+      "label": "CONTROL: indistinguishable",
+      "picks": {
+        "A": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.75,
+        "max": 0.78,
+        "mean": 0.7677777777777778,
+        "spread": 0.030000000000000027,
+        "last": 0.77
+      },
+      "rightCount": 9,
+      "n": 9
+    }
+  ],
+  "capabilitySurvives": true
+}

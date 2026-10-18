@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-18T15:41:12.859Z",
+  "case": "d12-orphan-descendant-not-auto-orphaned",
+  "repeats": 9,
+  "counts": {
+    "A": 9
+  },
+  "pA": {
+    "n": 9,
+    "min": 0.87,
+    "max": 0.92,
+    "mean": 0.9044444444444445,
+    "spread": 0.050000000000000044,
+    "last": 0.9
+  },
+  "pB": {
+    "n": 9,
+    "min": 0.08,
+    "max": 0.13,
+    "mean": 0.09555555555555556,
+    "spread": 0.05,
+    "last": 0.1
+  },
+  "winner": "A (the spec)",
+  "spec_text_used": "5.5 Orphans\n\nA record is an orphan if any of its `parents` is not in the applied set. The orphan's effect is *excluded* from the state; the orphan is *preserved* in the output. The orphan's descendants are *not* auto-orphaned (the fold runs on what stands).\n\n**Cycle-affected records are orphans for output purposes.** They are excluded from the fold exactly like missing-parent records, and they MUST appear in the returned `orphans` list. A port that detects cycles to exclude them from the fold but forgets to report them has made the records vanish from the result entirely — see corpus cases `d13`, `d14`, `d23`.\n\n"
+}

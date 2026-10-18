@@ -1,0 +1,107 @@
+{
+  "at": "2026-10-18T15:45:39.849Z",
+  "charter": "## The Address Is the Data\n\nThe location of a cell IS its data. Two cells with the same\nid and kind ARE the same cell. There is no separate \"store\".\n\n```\ncell.id = \"ack:7\"\ncell.kind = \"ack\"\ncell.payload = { timeoutMs: 3000 }\n```\n\nThe triple `(kind, id, payload)` IS the cell.\n\n\n\n## Engineering Cleverness\n\n1. **Cell ID = hash of (kind, payload, parents)** — no separate ID service\n2. **Witness log = append-only** — no DB, just files\n3. **Address = (x, y, t, sig)** — 4D navigation without a map\n4. **Op = pure function over Cell × args** — easy to test\n5. **Polyformalism = same model, 12 languages** — proves it's truly minimal\n6. **Lattice = JSON graph** — anyone can read, write, host\n\n",
+  "repeats": 9,
+  "arms": [
+    {
+      "label": "A=B=hash-as-address (house reading C is NOT offered)",
+      "options": [
+        "A",
+        "B"
+      ],
+      "picks": {
+        "B": 9
+      },
+      "pRight": {
+        "n": 9,
+        "min": 0.78,
+        "max": 0.84,
+        "mean": 0.8,
+        "spread": 0.05999999999999994,
+        "last": 0.8
+      },
+      "rightCount": 9,
+      "n": 9
+    },
+    {
+      "label": "SWAPPED:                     ",
+      "options": [
+        "A",
+        "B"
+      ],
+      "picks": {
+        "A": 9
+      },
+      "pRight": {
+        "n": 9,
+        "min": 0.54,
+        "max": 0.68,
+        "mean": 0.6044444444444443,
+        "spread": 0.14,
+        "last": 0.68
+      },
+      "rightCount": 9,
+      "n": 9
+    },
+    {
+      "label": "A=hash, C=two-axes          ",
+      "options": [
+        "A",
+        "C"
+      ],
+      "picks": {
+        "C": 9
+      },
+      "pRight": {
+        "n": 9,
+        "min": 0.77,
+        "max": 0.8,
+        "mean": 0.7855555555555557,
+        "spread": 0.030000000000000027,
+        "last": 0.8
+      },
+      "rightCount": 9,
+      "n": 9
+    },
+    {
+      "label": "SWAPPED:                     ",
+      "options": [
+        "A",
+        "B"
+      ],
+      "picks": {
+        "A": 9
+      },
+      "pRight": {
+        "n": 9,
+        "min": 0.53,
+        "max": 0.66,
+        "mean": 0.5977777777777777,
+        "spread": 0.13,
+        "last": 0.57
+      },
+      "rightCount": 9,
+      "n": 9
+    },
+    {
+      "label": "CONTROL: indistinguishable   ",
+      "options": [
+        "A",
+        "B"
+      ],
+      "picks": {
+        "A": 9
+      },
+      "pRight": {
+        "n": 9,
+        "min": 0.85,
+        "max": 0.87,
+        "mean": 0.8633333333333334,
+        "spread": 0.020000000000000018,
+        "last": 0.87
+      },
+      "rightCount": 9,
+      "n": 9
+    }
+  ]
+}

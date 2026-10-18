@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-18T15:41:28.248Z",
+  "case": "d12-orphan-descendant-not-auto-orphaned",
+  "repeats": 7,
+  "results": {
+    "CORRECT": {
+      "truth": "YES",
+      "n": 7,
+      "min": 0.15,
+      "max": 0.28,
+      "mean": 0.21714285714285714,
+      "spread": 0.13000000000000003,
+      "last": 0.22,
+      "verdict": "NO"
+    },
+    "MISREAD": {
+      "truth": "NO",
+      "n": 7,
+      "min": 0.16,
+      "max": 0.22,
+      "mean": 0.1757142857142857,
+      "spread": 0.06,
+      "last": 0.16,
+      "verdict": "NO"
+    },
+    "DROPPED": {
+      "truth": "NO",
+      "n": 7,
+      "min": 0.03,
+      "max": 0.04,
+      "mean": 0.03142857142857143,
+      "spread": 0.010000000000000002,
+      "last": 0.04,
+      "verdict": "NO"
+    }
+  }
+}

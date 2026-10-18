@@ -1,0 +1,92 @@
+{
+  "at": "2026-10-18T15:44:30.256Z",
+  "repeats": 9,
+  "arms": [
+    {
+      "label": "CORRECT is option A",
+      "options": {
+        "A": "state = {\"z\":7}; order = [\"child\"]; conflicts = []; orphans = [\"orph\"]",
+        "B": "state = {}; order = []; conflicts = []; orphans = [\"orph\",\"child\"]"
+      },
+      "right": "A",
+      "picks": {
+        "B": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.18,
+        "max": 0.3,
+        "mean": 0.23555555555555552,
+        "spread": 0.12,
+        "last": 0.29
+      },
+      "rightCount": 0,
+      "firstCount": 0
+    },
+    {
+      "label": "CORRECT is option B",
+      "options": {
+        "A": "state = {}; order = []; conflicts = []; orphans = [\"orph\",\"child\"]",
+        "B": "state = {\"z\":7}; order = [\"child\"]; conflicts = []; orphans = [\"orph\"]"
+      },
+      "right": "B",
+      "picks": {
+        "A": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.58,
+        "max": 0.78,
+        "mean": 0.7066666666666667,
+        "spread": 0.20000000000000007,
+        "last": 0.59
+      },
+      "rightCount": 0,
+      "firstCount": 9
+    },
+    {
+      "label": "BARE: A=\"\" B=\"\"   ",
+      "options": {
+        "A": "",
+        "B": ""
+      },
+      "right": "A",
+      "picks": {
+        "A": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.81,
+        "max": 0.82,
+        "mean": 0.8133333333333336,
+        "spread": 0.009999999999999898,
+        "last": 0.81
+      },
+      "rightCount": 9,
+      "firstCount": 9
+    },
+    {
+      "label": "BARE: A=\"\" B=\"\"   ",
+      "options": {
+        "A": "",
+        "B": ""
+      },
+      "right": "A",
+      "picks": {
+        "A": 9
+      },
+      "pA": {
+        "n": 9,
+        "min": 0.79,
+        "max": 0.83,
+        "mean": 0.8066666666666666,
+        "spread": 0.039999999999999925,
+        "last": 0.81
+      },
+      "rightCount": 9,
+      "firstCount": 9
+    }
+  ],
+  "followsContent": false,
+  "followsPosition": false
+}
