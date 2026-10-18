@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-18T16:37:14.500Z",
+  "n": 9,
+  "doc": "The deployment target is OSPREY-3. The rollback target is KESTREL-9.",
+  "arms": {
+    "BARE": {
+      "osprey": {
+        "n": 9,
+        "min": 0.99,
+        "max": 0.99,
+        "mean": 0.99,
+        "spread": 0,
+        "last": 0.99
+      },
+      "kestrel": {
+        "n": 9,
+        "min": 0.01,
+        "max": 0.01,
+        "mean": 0.01,
+        "spread": 0,
+        "last": 0.01
+      }
+    },
+    "POISON 0.94": {
+      "osprey": {
+        "n": 9,
+        "min": 0.57,
+        "max": 0.63,
+        "mean": 0.6033333333333333,
+        "spread": 0.06000000000000005,
+        "last": 0.6
+      },
+      "kestrel": {
+        "n": 9,
+        "min": 0.19,
+        "max": 0.27,
+        "mean": 0.22777777777777775,
+        "spread": 0.08000000000000002,
+        "last": 0.19
+      }
+    },
+    "POISON 0.99": {
+      "osprey": {
+        "n": 9,
+        "min": 0.57,
+        "max": 0.64,
+        "mean": 0.5955555555555555,
+        "spread": 0.07000000000000006,
+        "last": 0.64
+      },
+      "kestrel": {
+        "n": 9,
+        "min": 0.22,
+        "max": 0.3,
+        "mean": 0.25222222222222224,
+        "spread": 0.07999999999999999,
+        "last": 0.23
+      }
+    },
+    "POISON 0.50": {
+      "osprey": {
+        "n": 9,
+        "min": 0.67,
+        "max": 0.71,
+        "mean": 0.6877777777777777,
+        "spread": 0.039999999999999925,
+        "last": 0.71
+      },
+      "kestrel": {
+        "n": 9,
+        "min": 0.16,
+        "max": 0.21,
+        "mean": 0.18555555555555553,
+        "spread": 0.04999999999999999,
+        "last": 0.17
+      }
+    },
+    "POISON-OTHER-Q": {
+      "osprey": {
+        "n": 9,
+        "min": 0.95,
+        "max": 0.96,
+        "mean": 0.9522222222222223,
+        "spread": 0.010000000000000009,
+        "last": 0.95
+      },
+      "kestrel": {
+        "n": 9,
+        "min": 0.02,
+        "max": 0.02,
+        "mean": 0.02,
+        "spread": 0,
+        "last": 0.02
+      }
+    },
+    "LEDGER-NO-VERDICT": {
+      "osprey": {
+        "n": 9,
+        "min": 0.98,
+        "max": 0.98,
+        "mean": 0.9800000000000002,
+        "spread": 0,
+        "last": 0.98
+      },
+      "kestrel": {
+        "n": 9,
+        "min": 0.02,
+        "max": 0.02,
+        "mean": 0.02,
+        "spread": 0,
+        "last": 0.02
+      }
+    }
+  }
+}
