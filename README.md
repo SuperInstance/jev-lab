@@ -212,6 +212,45 @@ a presence test on this score.
 
 ---
 
+## E9 — a witnessed ledger is a one-way ratchet
+
+**The single most consequential thing this lab found, and it is a SAFETY
+finding, not a capability.** Full write-up: **[`LEDGER-ANCHOR.md`](LEDGER-ANCHOR.md)**;
+experiment `experiments/e9-ledger-anchor.mjs`.
+
+The house's closure property says *"a verdict that reproduces is a property
+of the LEDGER, not of the judge."* Measured at the judge level:
+
+| arm | P(the true claim) |
+|---|---|
+| no ledger | **0.990** |
+| a ledger of **readings**, no verdict | 0.980 |
+| a **poisoned** verdict saying "NO" | **0.603 ± 0.060** |
+
+- **The ledger does not make the judge more reproducible.** The spread is
+  0.010 bare and 0.060–0.070 with a poison. The closure property is a
+  property of the verdict being *remembered*, not of the judge becoming
+  deterministic. The fleet has been using those two claims interchangeably.
+- **A witnessed ledger is a one-way ratchet.** An honest verdict moves the
+  score by −0.017 (noise); a poisoned one moves it by −0.39. **A ledger of
+  readings is harmless. A ledger of verdicts is a veto.**
+- **The effect saturates** and does **not** scale with the witness's own
+  confidence (0.50 → 0.688, 0.99 → 0.596) — so "trust the high-confidence
+  witness" is not an escape.
+- **The damage is scoped** to the question the ledger names, so it is
+  auditable.
+- **And the poison does not flip the answer — it moves it into the noise.**
+  0.603 ± 0.060 is inside the band the house already knows is undecidable.
+  A flip is detectable; a plausible, unstable signal is not.
+
+**So the house's rule is confirmed, with a measurement behind it:** *replay
+the verdict, never re-ask with the ledger in the state.* Re-asking with the
+ledger present is not a safer re-derivation — it is a strictly worse one,
+because it can only subtract. And a re-derivation that re-asks must
+**compare** against the record and **flag a disagreement** rather than blend.
+
+---
+
 ## What this changes about how the fleet uses a judge
 
 1. **A judge may never be the thing that decides.** It proposes, the
