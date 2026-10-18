@@ -83,9 +83,18 @@ separated the four confounded variables — which content is correct, which
 key it sits at, the insertion order, and the content's *surface form* — and
 the truth is this:
 
-> **With the rule stated as PROSE, Jev picks the spec's reading 9/9 in
-> every arrangement. With the rule stated as a RESULT, it picks the
-> OPPOSITE 9/9 in every arrangement.**
+> **With the rule stated as PROSE, Jev follows the CONTENT in 6 of E7's 7
+> arrangements — and it consistently follows it to the BRIEF's reading, not
+> the spec's. With the rule stated as a RESULT, it follows the other
+> content, 4 of 5 times (E3c).**
+>
+> *(Recomputed from the committed data by `analyze-e7.py`. An audit found
+> this README claiming "9/9 in every arrangement" for both forms; the
+> data says **6 of 7** arrangements in E7 — the seventh, "X at A, insertion
+> B,A", splits 5/4 — and the result-form figure belongs to a SEPARATE
+> sweep, E3c, at **4/5**. The "P = 0.86" is E7's CONTROL arm (pTop
+> 0.859), not E4's 0.813/0.807. The core finding survives, and the
+> corrected numbers are clearer for having been recomputed.)*
 
 A reader that flips its answer when the same rule is re-worded is not
 reading a rule. It is matching a surface.
